@@ -88,11 +88,11 @@ class Speedometer extends Component {
           <View style={[style.innerCircle, innerCircleStyle]} />
         </View>
         <View style={[style.labelWrapper, labelWrapperStyle]}>
-          <Text style={
+          {/* <Text style={
             [style.label, labelStyle]}
           >
             {limitValue(value, minValue, maxValue)}
-          </Text>
+          </Text> */}
           <Text style={
             [style.labelNote, { color: label.labelColor }, labelNoteStyle]}
           >
