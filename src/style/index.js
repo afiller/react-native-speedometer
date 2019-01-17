@@ -1,7 +1,7 @@
 /* eslint import/no-unresolved: [2, { ignore: ['react-native'] }] */
 import { StyleSheet } from 'react-native';
 
-export const { width } = '75%';
+export const width = '75%';
 
 export default StyleSheet.create({
   wrapper: {
